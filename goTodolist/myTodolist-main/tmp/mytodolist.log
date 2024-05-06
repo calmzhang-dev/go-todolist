@@ -1,0 +1,726 @@
+2024-04-21 19:54:54.305	info	store/store.go:63	get userid from username failed
+2024-04-21 19:59:55.490	info	user/updateinfo.go:13	UpdateInfo function called	{"X-Request-ID": "44e0ded0-6a21-451b-baaf-f8699dc433c5", "X-Username": "devtest"}
+2024-04-21 21:18:19.217	info	mytodolist/mytodolist.go:84	Shutting down server...
+2024-04-21 21:18:19.239	info	mytodolist/mytodolist.go:87	Waiting for all goroutines to finish;	{"the gotroutine number is:": 7}
+2024-04-21 21:18:19.329	info	mytodolist/mytodolist.go:96	Server exited
+2024-04-21 21:26:23.776	info	mytodolist/mytodolist.go:105	start to listening the incoming requests on http address	{"addr": ":8080"}
+2024-04-21 21:27:14.248	info	store/store.go:63	get userid from username failed
+2024-04-21 21:27:25.910	info	project/join.go:13	project join function called	{"X-Request-ID": "848ddecd-bed0-406e-b694-0df25c33589a", "X-Username": "csbintest"}
+2024-04-21 21:27:25.910	info	project/join.go:19	项目id和密码	{"value:": ""}
+2024-04-21 21:27:25.910	info	project/join.go:23	绑定projectid和pwd的时候出错
+2024-04-21 21:31:16.580	info	mytodolist/mytodolist.go:84	Shutting down server...
+2024-04-21 21:31:16.581	info	mytodolist/mytodolist.go:87	Waiting for all goroutines to finish;	{"the gotroutine number is:": 8}
+2024-04-21 21:31:16.581	info	mytodolist/mytodolist.go:96	Server exited
+2024-04-21 21:31:22.778	info	mytodolist/mytodolist.go:105	start to listening the incoming requests on http address	{"addr": ":8080"}
+2024-04-21 21:33:34.053	info	project/join.go:13	project join function called	{"X-Request-ID": "8d71814b-c2ee-4ed3-b9d6-95e964c59e20", "X-Username": "ekreke3455566"}
+2024-04-21 21:33:34.053	info	project/join.go:20	项目id和密码	{"value:": "121"}
+2024-04-21 21:33:34.054	error	store/project.go:422	check project if exist error
+2024-04-21 21:34:02.362	info	project/join.go:13	project join function called	{"X-Request-ID": "baaa66a4-a5fe-4b5e-857c-2b1842de07c1", "X-Username": "ekreke3455566"}
+2024-04-21 21:34:02.362	info	project/join.go:20	项目id和密码	{"value:": "17"}
+2024-04-21 21:34:02.365	error	store/project.go:452	user not in this project
+2024-04-21 21:53:34.480	info	mytodolist/mytodolist.go:105	start to listening the incoming requests on http address	{"addr": ":8088"}
+2024-04-21 21:53:35.419	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "3cc944f9-aa14-42b6-bca6-50a2bff7fec5", "X-Username": "4444"}
+2024-04-21 21:53:46.779	info	user/mydayai.go:12	MydayAi function called	{"X-Request-ID": "99ac427e-7615-4077-9445-316a30fe43bb", "X-Username": "4444"}
+2024-04-21 21:53:46.783	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:53:46.783	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:53:46.782	info	store/user.go:218	pagesize:
+2024-04-21 21:53:46.790	error	log/log.go:120	Ignored key without a value.	{"ignored": []}
+2024-04-21 21:53:46.790	info	store/user.go:235	items
+2024-04-21 21:54:11.918	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "e2221a79-c654-4d0e-82f7-ea9e4ea63a6b", "X-Username": "4444"}
+2024-04-21 21:55:41.355	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "dd710c5c-cbaa-413e-b190-946c50d26438", "X-Username": "4444"}
+2024-04-21 21:55:44.689	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "37c7449d-7a53-4391-aaed-69cb2135fbe0", "X-Username": "4444"}
+2024-04-21 21:56:16.795	info	project/info.go:12	project info function called	{"X-Request-ID": "5aee7c7c-e4d1-44f6-a54f-dfb8df808ad8", "X-Username": "4444"}
+2024-04-21 21:56:23.613	info	project/join.go:13	project join function called	{"X-Request-ID": "3d45d082-3a8c-42d0-8dda-ad3f171883ec", "X-Username": "4444"}
+2024-04-21 21:56:23.613	info	project/join.go:20	项目id和密码	{"value:": "undefined"}
+2024-04-21 21:56:23.613	info	project/join.go:24	绑定projectid和pwd的时候出错
+2024-04-21 21:56:34.942	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "0e043e18-eb2f-4ba5-889f-3fd52cbbf45f", "X-Username": "4444"}
+2024-04-21 21:56:36.204	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "3b03d941-6762-41b3-ac24-5b912c35270a", "X-Username": "4444"}
+2024-04-21 21:56:39.417	info	project/join.go:13	project join function called	{"X-Request-ID": "3176b4d4-26bb-463c-a280-a9cd38db3fe9", "X-Username": "4444"}
+2024-04-21 21:56:39.417	info	project/join.go:20	项目id和密码	{"value:": "undefined"}
+2024-04-21 21:56:39.417	info	project/join.go:24	绑定projectid和pwd的时候出错
+2024-04-21 21:57:01.440	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "9dd5373a-d215-4c3f-ad41-d6bbf9df1a92", "X-Username": "4444"}
+2024-04-21 21:57:05.752	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "5a7d7230-8a63-43b1-9961-5d5541fcf248", "X-Username": "4444"}
+2024-04-21 21:57:15.147	info	project/join.go:13	project join function called	{"X-Request-ID": "869ff21d-e5dd-4c01-8d40-2f20e54dfa44", "X-Username": "4444"}
+2024-04-21 21:57:15.147	info	project/join.go:20	项目id和密码	{"value:": "undefined"}
+2024-04-21 21:57:15.147	info	project/join.go:24	绑定projectid和pwd的时候出错
+2024-04-21 21:57:53.117	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "36ac4303-d063-4919-987e-4900315b101b", "X-Username": "4444"}
+2024-04-21 21:57:54.585	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "713771c1-83f3-4968-9e90-62d65d7acc85", "X-Username": "4444"}
+2024-04-21 21:58:04.566	info	project/join.go:13	project join function called	{"X-Request-ID": "63c7b684-a4d1-446e-bbff-593495befb75", "X-Username": "4444"}
+2024-04-21 21:58:04.566	info	project/join.go:20	项目id和密码	{"value:": "8"}
+2024-04-21 21:58:04.567	error	store/project.go:452	user not in this project
+2024-04-21 21:58:04.593	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "45769428-780c-4011-9738-b9bab6d103a4", "X-Username": "4444"}
+2024-04-21 21:58:08.043	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "33cd0926-b82d-4e24-bc2d-dc0f225af2fa", "X-Username": "4444"}
+2024-04-21 21:58:08.046	info	user/myday.go:12	Myday function called	{"X-Request-ID": "06058341-6560-4f3b-9664-2dbd584307c9", "X-Username": "4444"}
+2024-04-21 21:58:08.050	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:58:08.050	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:58:08.050	info	store/user.go:218	pagesize:
+2024-04-21 21:58:08.051	error	log/log.go:120	Ignored key without a value.	{"ignored": []}
+2024-04-21 21:58:08.051	info	store/user.go:235	items
+2024-04-21 21:58:10.674	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "f2c03dd2-4c13-4a7e-88ed-6a8c7abe91f5", "X-Username": "4444"}
+2024-04-21 21:58:14.957	info	project/info.go:12	project info function called	{"X-Request-ID": "568c88dd-26bc-4451-a5d1-0eccbf90627b", "X-Username": "4444"}
+2024-04-21 21:58:21.171	info	project/join.go:13	project join function called	{"X-Request-ID": "d0dff945-1194-47dc-8c82-406152bdb181", "X-Username": "4444"}
+2024-04-21 21:58:21.171	info	project/join.go:20	项目id和密码	{"value:": "12"}
+2024-04-21 21:58:21.175	error	store/project.go:452	user not in this project
+2024-04-21 21:58:21.190	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "23336c97-8ec5-47b1-a59e-88562b68d23c", "X-Username": "4444"}
+2024-04-21 21:58:22.467	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "be6dc071-8e50-4cd1-9b59-fa16138e7f24", "X-Username": "4444"}
+2024-04-21 21:58:22.474	info	user/myday.go:12	Myday function called	{"X-Request-ID": "62a282a6-9ecd-48e1-a963-f797c67149c5", "X-Username": "4444"}
+2024-04-21 21:58:22.479	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:58:22.479	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:58:22.479	info	store/user.go:218	pagesize:
+2024-04-21 21:58:22.484	error	log/log.go:120	Ignored key without a value.	{"ignored": []}
+2024-04-21 21:58:22.484	info	store/user.go:235	items
+2024-04-21 21:58:33.940	info	user/myday.go:12	Myday function called	{"X-Request-ID": "fd925646-9f1e-45bd-b75d-2cdc8638382c", "X-Username": "4444"}
+2024-04-21 21:58:33.945	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:58:33.945	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:58:33.945	info	store/user.go:218	pagesize:
+2024-04-21 21:58:33.956	error	log/log.go:120	Ignored key without a value.	{"ignored": []}
+2024-04-21 21:58:33.956	info	store/user.go:235	items
+2024-04-21 21:58:36.471	info	item/create.go:12	Item create function called	{"X-Request-ID": "310fab40-645e-4165-8519-49ef48798379", "X-Username": "4444"}
+2024-04-21 21:58:36.502	info	user/myday.go:12	Myday function called	{"X-Request-ID": "6c127aa4-3669-4e7f-b2b7-581eeaf51cd8", "X-Username": "4444"}
+2024-04-21 21:58:36.506	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:58:36.506	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:58:36.506	info	store/user.go:218	pagesize:
+2024-04-21 21:58:36.507	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"21","description":"","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 21:58:36.507	info	store/user.go:235	items
+2024-04-21 21:58:37.981	info	item/setdone.go:12	Item function setdone called	{"X-Request-ID": "3fd5075a-9dca-409b-ad27-e0aede9fb00c", "X-Username": "4444"}
+2024-04-21 21:58:39.949	info	user/myday.go:12	Myday function called	{"X-Request-ID": "b306429f-2b03-4d9e-9b27-0b53b96a70e0", "X-Username": "4444"}
+2024-04-21 21:58:39.950	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:58:39.950	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:58:39.950	info	store/user.go:218	pagesize:
+2024-04-21 21:58:39.951	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"21","description":"","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 21:58:39.951	info	store/user.go:235	items
+2024-04-21 21:58:42.728	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "f487a490-66fb-48c3-9551-d93ccb41fb70", "X-Username": "4444"}
+2024-04-21 21:58:53.335	info	item/update.go:12	Item Update function called	{"X-Request-ID": "db47aadb-eed4-482f-af49-cb69b2bfe309", "X-Username": "4444"}
+2024-04-21 21:58:53.343	error	log/log.go:120	Ignored key without a value.	{"ignored": 1}
+2024-04-21 21:58:53.343	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 1, "value": "preitem.myday"}]}
+2024-04-21 21:58:53.343	info	store/items.go:312	it.myday & 
+2024-04-21 21:58:55.178	info	user/myday.go:12	Myday function called	{"X-Request-ID": "e2037dc6-4628-43ce-bda7-4d700f351395", "X-Username": "4444"}
+2024-04-21 21:58:55.180	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:58:55.180	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:58:55.180	info	store/user.go:218	pagesize:
+2024-04-21 21:58:55.184	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 21:58:55.184	info	store/user.go:235	items
+2024-04-21 21:58:57.651	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "5c1fae82-1d46-4865-af57-455e75676dbe", "X-Username": "4444"}
+2024-04-21 21:59:00.910	info	user/myday.go:12	Myday function called	{"X-Request-ID": "c841bd24-5da0-457a-b489-7247b218bd9b", "X-Username": "4444"}
+2024-04-21 21:59:00.911	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:59:00.911	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:59:00.911	info	store/user.go:218	pagesize:
+2024-04-21 21:59:00.911	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 21:59:00.911	info	store/user.go:235	items
+2024-04-21 21:59:06.071	info	user/important.go:12	Important function called	{"X-Request-ID": "e1007f50-20bf-4f55-84b3-258262768ce9", "X-Username": "4444"}
+2024-04-21 21:59:08.497	info	item/create.go:12	Item create function called	{"X-Request-ID": "c36604b1-0116-4e61-981c-99b2fe2bb1b9", "X-Username": "4444"}
+2024-04-21 21:59:13.211	info	user/important.go:12	Important function called	{"X-Request-ID": "48146d61-27ca-4117-bf22-b65eb986a721", "X-Username": "4444"}
+2024-04-21 21:59:29.461	info	user/items.go:12	Items function called	{"X-Request-ID": "9e42fcee-d016-4fcd-b0b7-97a2197e492a", "X-Username": "4444"}
+2024-04-21 21:59:29.461	info	store/user.go:244	page msgs:	{"pagesize:": 10, "next_id:": 0}
+2024-04-21 21:59:30.414	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "4db2d1a4-350f-40fc-83b6-41d712b58e16", "X-Username": "4444"}
+2024-04-21 21:59:30.440	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "f90b500f-1336-4f58-ab53-c91b21da4631", "X-Username": "4444"}
+2024-04-21 21:59:30.440	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:31.176	info	user/items.go:12	Items function called	{"X-Request-ID": "ab5405fa-8f43-42b6-a735-4f8e613582d5", "X-Username": "4444"}
+2024-04-21 21:59:31.177	info	store/user.go:244	page msgs:	{"pagesize:": 10, "next_id:": 0}
+2024-04-21 21:59:32.307	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "1aa54425-e86b-429d-acf3-d975566e13ed", "X-Username": "4444"}
+2024-04-21 21:59:32.587	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "f9f2e5bf-fa2c-4ad9-b96d-bacb2df2fac0", "X-Username": "4444"}
+2024-04-21 21:59:32.604	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "ad0d92dd-084a-4ae0-b1fb-efe30f58a982", "X-Username": "4444"}
+2024-04-21 21:59:32.604	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:36.567	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "7e4e1b50-c673-4593-9744-9d1b8b08fc9f", "X-Username": "4444"}
+2024-04-21 21:59:40.157	info	collection/create.go:12	collection create function called	{"X-Request-ID": "fe4bab5e-fa21-4c6a-8232-4e7a58fe65b2", "X-Username": "4444"}
+2024-04-21 21:59:40.157	debug	collection/create.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:40.188	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "6c11bccb-880c-4346-a777-7e1d3af61d2a", "X-Username": "4444"}
+2024-04-21 21:59:45.218	info	collection/create.go:12	collection create function called	{"X-Request-ID": "518f9f8b-39d7-472f-95bf-f28eaaa85ed2", "X-Username": "4444"}
+2024-04-21 21:59:45.218	debug	collection/create.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:45.243	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "f0995fe3-e2b9-4378-b893-5c6dc0bbae8d", "X-Username": "4444"}
+2024-04-21 21:59:46.512	info	collection/delete.go:12	collection create function called	{"X-Request-ID": "81ba4f32-c843-4c3d-9ef5-09d078db47ff", "X-Username": "4444"}
+2024-04-21 21:59:46.512	debug	collection/delete.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:46.549	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "45a62126-b04f-4c44-9c11-10f44001b5f4", "X-Username": "4444"}
+2024-04-21 21:59:48.031	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "a42db569-5fcb-48eb-9de7-7616006362ae", "X-Username": "4444"}
+2024-04-21 21:59:48.060	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "9ded57a7-f138-4e41-a960-75a266cb7554", "X-Username": "4444"}
+2024-04-21 21:59:48.060	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:50.236	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "a6095897-0ff7-4499-a4fd-122840525a96", "X-Username": "4444"}
+2024-04-21 21:59:52.718	info	user/myday.go:12	Myday function called	{"X-Request-ID": "77c3cd6c-2b5b-4f5e-b59a-f92a7a6dc0f0", "X-Username": "4444"}
+2024-04-21 21:59:52.724	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 21:59:52.724	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 21:59:52.724	info	store/user.go:218	pagesize:
+2024-04-21 21:59:52.736	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 21:59:52.736	info	store/user.go:235	items
+2024-04-21 21:59:54.316	info	user/important.go:12	Important function called	{"X-Request-ID": "00246bd3-1739-4fc8-a9d0-cc945373ca89", "X-Username": "4444"}
+2024-04-21 21:59:55.517	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "ca99c51d-6b1f-41eb-8076-ce842b91fef4", "X-Username": "4444"}
+2024-04-21 21:59:56.937	info	collection/additem.go:12	additem function called	{"X-Request-ID": "fa13e8b3-b07e-421b-b7db-761614ded501", "X-Username": "4444"}
+2024-04-21 21:59:56.937	debug	collection/additem.go:14	the username is:	{"username:": "4444"}
+2024-04-21 21:59:59.803	info	user/important.go:12	Important function called	{"X-Request-ID": "85574b37-1f7e-4940-9c06-41d5afabd0d3", "X-Username": "4444"}
+2024-04-21 22:00:00.577	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "b963649c-552f-44b6-ade0-4ce8daafc577", "X-Username": "4444"}
+2024-04-21 22:00:00.641	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "b0226bef-5991-4969-a4e4-3da7a03ce178", "X-Username": "4444"}
+2024-04-21 22:00:00.641	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:02.409	info	user/items.go:12	Items function called	{"X-Request-ID": "0fb1cdb7-90b3-4d7d-b753-9bbc0d71790a", "X-Username": "4444"}
+2024-04-21 22:00:02.409	info	store/user.go:244	page msgs:	{"pagesize:": 10, "next_id:": 0}
+2024-04-21 22:00:02.727	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "af7502f0-60c6-4aec-86d2-8c89f7fb4ca3", "X-Username": "4444"}
+2024-04-21 22:00:02.805	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "da23507c-60a5-40d0-a12f-348c67a26aad", "X-Username": "4444"}
+2024-04-21 22:00:02.805	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:04.473	info	user/myday.go:12	Myday function called	{"X-Request-ID": "f1dad5aa-405c-4e94-8fa3-f6bd0a2f72da", "X-Username": "4444"}
+2024-04-21 22:00:04.481	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:00:04.481	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:00:04.480	info	store/user.go:218	pagesize:
+2024-04-21 22:00:04.483	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:00:04.483	info	store/user.go:235	items
+2024-04-21 22:00:06.264	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "8dbf7bb8-76b6-4790-a729-4d2c2ec5a2f6", "X-Username": "4444"}
+2024-04-21 22:00:08.640	info	collection/additem.go:12	additem function called	{"X-Request-ID": "c8bf347a-5774-4728-8bc7-623023e255fc", "X-Username": "4444"}
+2024-04-21 22:00:08.640	debug	collection/additem.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:11.369	info	user/myday.go:12	Myday function called	{"X-Request-ID": "12295652-84cd-4b5d-9270-5362f2016b56", "X-Username": "4444"}
+2024-04-21 22:00:11.370	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:00:11.370	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:00:11.370	info	store/user.go:218	pagesize:
+2024-04-21 22:00:11.370	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:00:11.370	info	store/user.go:235	items
+2024-04-21 22:00:12.087	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "22f3bf92-ab9b-4c2c-851c-3095508b24a6", "X-Username": "4444"}
+2024-04-21 22:00:13.644	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "22486c41-c2cd-4eb9-9075-d0145f35a12d", "X-Username": "4444"}
+2024-04-21 22:00:13.647	info	user/myday.go:12	Myday function called	{"X-Request-ID": "f6c27f3f-7eb5-4988-9dc9-847d6d21a0c0", "X-Username": "4444"}
+2024-04-21 22:00:13.659	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:00:13.660	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:00:13.659	info	store/user.go:218	pagesize:
+2024-04-21 22:00:13.669	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:00:13.669	info	store/user.go:235	items
+2024-04-21 22:00:14.192	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "feb3307e-136a-4346-979c-fe55c3081728", "X-Username": "4444"}
+2024-04-21 22:00:15.530	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "e8cdb57c-e526-4efe-991d-f0e0fbad272f", "X-Username": "4444"}
+2024-04-21 22:00:15.566	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "7ca2fb79-a6a7-49a4-a847-97e7a4c017fd", "X-Username": "4444"}
+2024-04-21 22:00:15.566	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:25.143	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "10e6b242-7a2d-4d57-b260-46a1c084d1e8", "X-Username": "4444"}
+2024-04-21 22:00:28.428	info	collection/create.go:12	collection create function called	{"X-Request-ID": "d2ea7c71-a22b-48d7-ad20-c9c5b6723d84", "X-Username": "4444"}
+2024-04-21 22:00:28.428	debug	collection/create.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:28.453	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "3102411a-16de-4837-b534-34e5b96c32bd", "X-Username": "4444"}
+2024-04-21 22:00:29.778	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "238bd877-b899-419e-9a89-6acd2d1cad54", "X-Username": "4444"}
+2024-04-21 22:00:29.805	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "fadc87fe-5790-4db1-8f87-773b99b7f593", "X-Username": "4444"}
+2024-04-21 22:00:29.805	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:30.437	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "f00a572c-d8ff-47b4-ad93-be9b9d229256", "X-Username": "4444"}
+2024-04-21 22:00:30.437	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:31.206	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "8bd3e5e7-367c-42a8-8329-cf57ac4e020d", "X-Username": "4444"}
+2024-04-21 22:00:31.206	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:00:34.552	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "0157a9eb-e34d-4522-b54e-e171507e73a3", "X-Username": "4444"}
+2024-04-21 22:00:35.601	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "1dc1914b-364c-4cf5-ae91-d4c6dd095e00", "X-Username": "4444"}
+2024-04-21 22:00:38.490	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "2965e032-12a5-49f6-b0a5-d45425b2821b", "X-Username": "4444"}
+2024-04-21 22:00:38.520	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "ffac5490-6a5d-4495-82a2-817e855bd980", "X-Username": "4444"}
+2024-04-21 22:00:38.521	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:01:38.967	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "e1454435-32e6-40a0-8a20-40570f4edb46", "X-Username": "4444"}
+2024-04-21 22:01:39.380	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "33bf83fa-18a1-4bc3-bd99-aabfbae7d713", "X-Username": "4444"}
+2024-04-21 22:01:39.402	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "ff96447f-d251-42b3-84cc-5faf83fe24b6", "X-Username": "4444"}
+2024-04-21 22:01:39.402	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:01:39.631	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "64750537-dcf2-4454-94ff-c8cca43bd7ae", "X-Username": "4444"}
+2024-04-21 22:01:39.759	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "a83a8058-71bf-48f1-a942-4ef647465ca4", "X-Username": "4444"}
+2024-04-21 22:01:39.759	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:01:41.197	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "fca41e5f-1abe-40d4-9cb7-76b5e5f79fb2", "X-Username": "4444"}
+2024-04-21 22:01:41.197	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:01:41.624	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "084d5577-7256-4df3-a1b5-901b16e59f7e", "X-Username": "4444"}
+2024-04-21 22:01:41.625	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:01:43.365	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "6b2da359-a893-4279-9763-e3c2ba0c93dd", "X-Username": "4444"}
+2024-04-21 22:01:43.691	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "de41be51-4982-4284-9f75-474b6a74cc6e", "X-Username": "4444"}
+2024-04-21 22:01:43.702	info	user/myday.go:12	Myday function called	{"X-Request-ID": "c643a091-4929-46a8-bb96-b9677059bfd4", "X-Username": "4444"}
+2024-04-21 22:01:43.705	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:01:43.705	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:01:43.705	info	store/user.go:218	pagesize:
+2024-04-21 22:01:43.711	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:01:43.711	info	store/user.go:235	items
+2024-04-21 22:01:48.690	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "ad3f692a-bb65-42bf-be39-4f56a93f4683", "X-Username": "4444"}
+2024-04-21 22:01:48.690	info	user/myday.go:12	Myday function called	{"X-Request-ID": "e13faa1f-6a82-42da-ad25-06f879b79d4a", "X-Username": "4444"}
+2024-04-21 22:01:48.691	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:01:48.691	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:01:48.691	info	store/user.go:218	pagesize:
+2024-04-21 22:01:48.692	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:01:48.692	info	store/user.go:235	items
+2024-04-21 22:01:50.810	info	project/quit.go:13	project quit function called	{"X-Request-ID": "c079d92a-85d2-4fa2-992e-601639223702", "X-Username": "4444"}
+2024-04-21 22:01:55.039	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "206b2cfa-3251-434f-9d72-e99e0336a40e", "X-Username": "4444"}
+2024-04-21 22:01:55.043	info	user/myday.go:12	Myday function called	{"X-Request-ID": "45111d3f-e593-4cc3-9721-f87c6159da3b", "X-Username": "4444"}
+2024-04-21 22:01:55.045	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:01:55.045	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:01:55.045	info	store/user.go:218	pagesize:
+2024-04-21 22:01:55.045	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:01:55.045	info	store/user.go:235	items
+2024-04-21 22:02:32.807	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "e81c8213-4037-45f3-81a8-57bec09f2932", "X-Username": "4444"}
+2024-04-21 22:02:32.810	info	user/myday.go:12	Myday function called	{"X-Request-ID": "ad67eee0-14d6-414d-8e80-97a994a27bf0", "X-Username": "4444"}
+2024-04-21 22:02:32.815	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:32.815	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:32.815	info	store/user.go:218	pagesize:
+2024-04-21 22:02:32.816	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:32.816	info	store/user.go:235	items
+2024-04-21 22:02:39.718	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "b7d91760-edbf-49b5-ae2d-be4d07e4c738", "X-Username": "4444"}
+2024-04-21 22:02:39.720	info	user/myday.go:12	Myday function called	{"X-Request-ID": "afa1f448-9b01-469b-9a7d-5dc2fa54aa6e", "X-Username": "4444"}
+2024-04-21 22:02:39.723	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:39.723	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:39.723	info	store/user.go:218	pagesize:
+2024-04-21 22:02:39.726	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:39.726	info	store/user.go:235	items
+2024-04-21 22:02:40.808	info	project/nodes.go:12	project nodes function called	{"X-Request-ID": "66cd0abf-5213-4b4d-b720-f69925940741", "X-Username": "4444"}
+2024-04-21 22:02:42.401	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "6bb714e9-2f11-4ccd-b90e-fcee625c0fce", "X-Username": "4444"}
+2024-04-21 22:02:42.408	info	user/myday.go:12	Myday function called	{"X-Request-ID": "6ffa2f67-449f-423f-b24b-69235f630b00", "X-Username": "4444"}
+2024-04-21 22:02:42.410	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:42.410	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:42.410	info	store/user.go:218	pagesize:
+2024-04-21 22:02:42.411	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:42.411	info	store/user.go:235	items
+2024-04-21 22:02:45.674	info	project/update.go:15	project update function called	{"X-Request-ID": "61da5a9c-6814-42c4-ad43-99f7de5dceac", "X-Username": "4444"}
+2024-04-21 22:02:45.702	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "bde10a05-510d-48f3-bafa-ed89668f31bc", "X-Username": "4444"}
+2024-04-21 22:02:45.702	info	user/myday.go:12	Myday function called	{"X-Request-ID": "5af08ac2-3e7a-4127-8350-7992f4ab1413", "X-Username": "4444"}
+2024-04-21 22:02:45.707	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:45.707	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:45.707	info	store/user.go:218	pagesize:
+2024-04-21 22:02:45.709	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:45.709	info	store/user.go:235	items
+2024-04-21 22:02:46.034	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "7953e0fc-98f1-48ff-8c9b-050926e22cb9", "X-Username": "4444"}
+2024-04-21 22:02:46.034	info	user/myday.go:12	Myday function called	{"X-Request-ID": "b0311d8a-ee36-4116-b7c9-077564b39d6c", "X-Username": "4444"}
+2024-04-21 22:02:46.039	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:46.039	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:46.039	info	store/user.go:218	pagesize:
+2024-04-21 22:02:46.041	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:46.041	info	store/user.go:235	items
+2024-04-21 22:02:58.067	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "49a1bdea-18cd-4d76-936e-d002083e6d1e", "X-Username": "4444"}
+2024-04-21 22:02:58.069	info	user/myday.go:12	Myday function called	{"X-Request-ID": "d0c14335-f507-4824-91db-4efa804b77f3", "X-Username": "4444"}
+2024-04-21 22:02:58.078	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:58.078	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:58.078	info	store/user.go:218	pagesize:
+2024-04-21 22:02:58.078	info	project/create.go:13	project create function called	{"X-Request-ID": "252c1dc9-d80d-4271-88e6-a1981f17677e", "X-Username": "4444"}
+2024-04-21 22:02:58.085	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:58.085	info	store/user.go:235	items
+2024-04-21 22:02:58.129	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "6be34d40-233c-486c-94f3-e21f2a9b8247", "X-Username": "4444"}
+2024-04-21 22:02:58.130	info	user/myday.go:12	Myday function called	{"X-Request-ID": "7584c355-379c-40cd-a4a8-3778cb46ede1", "X-Username": "4444"}
+2024-04-21 22:02:58.141	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:58.141	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:58.141	info	store/user.go:218	pagesize:
+2024-04-21 22:02:58.143	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:58.143	info	store/user.go:235	items
+2024-04-21 22:02:58.386	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "e162d972-894a-41c8-970c-33ab0473acca", "X-Username": "4444"}
+2024-04-21 22:02:58.390	info	user/myday.go:12	Myday function called	{"X-Request-ID": "54ad484f-4a53-4d26-98a1-114620a441b7", "X-Username": "4444"}
+2024-04-21 22:02:58.394	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:02:58.394	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:02:58.394	info	store/user.go:218	pagesize:
+2024-04-21 22:02:58.395	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":0,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:02:58.395	info	store/user.go:235	items
+2024-04-21 22:03:04.732	info	project/addnode.go:13	project add node function called	{"X-Request-ID": "b781b2a9-d82b-4985-a12c-8dad31f8dbaf", "X-Username": "4444"}
+2024-04-21 22:03:04.847	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "543b5ade-ae9f-4265-8b7f-2a7c2070d454", "X-Username": "4444"}
+2024-04-21 22:03:04.849	info	user/myday.go:12	Myday function called	{"X-Request-ID": "80990b07-eef3-40a3-bb45-47bdaab5ecfa", "X-Username": "4444"}
+2024-04-21 22:03:04.860	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:03:04.860	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:03:04.860	info	store/user.go:218	pagesize:
+2024-04-21 22:03:04.862	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:03:04.861	info	store/user.go:235	items
+2024-04-21 22:03:05.165	info	user/myday.go:12	Myday function called	{"X-Request-ID": "03d8b857-1927-48ce-9ac8-c948041a241d", "X-Username": "4444"}
+2024-04-21 22:03:05.165	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "ab2251ae-8854-4169-9178-eebacd3caec7", "X-Username": "4444"}
+2024-04-21 22:03:05.166	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:03:05.167	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:03:05.166	info	store/user.go:218	pagesize:
+2024-04-21 22:03:05.167	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:03:05.167	info	store/user.go:235	items
+2024-04-21 22:03:06.764	info	project/nodes.go:12	project nodes function called	{"X-Request-ID": "00b37917-cd21-43d0-9fba-0e778895892d", "X-Username": "4444"}
+2024-04-21 22:03:10.763	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "db2726ed-35d7-4f1b-aa50-0b7862e32b19", "X-Username": "4444"}
+2024-04-21 22:03:10.763	info	user/myday.go:12	Myday function called	{"X-Request-ID": "2409cb08-483c-4ab9-b03b-1791d0309e90", "X-Username": "4444"}
+2024-04-21 22:03:10.765	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:03:10.765	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:03:10.765	info	store/user.go:218	pagesize:
+2024-04-21 22:03:10.766	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:03:10.766	info	store/user.go:235	items
+2024-04-21 22:03:12.138	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "37abead4-3bb7-4f1e-8754-da830e52b99c", "X-Username": "4444"}
+2024-04-21 22:03:12.182	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "af63dbf8-4ab4-4a4a-add7-377b2e015c14", "X-Username": "4444"}
+2024-04-21 22:03:12.182	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-21 22:03:12.438	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "c254eb51-cc60-4906-bf0f-1e8f1898d64f", "X-Username": "4444"}
+2024-04-21 22:03:13.204	info	user/important.go:12	Important function called	{"X-Request-ID": "d0ab765e-f220-41df-afa8-b4b4e1b8fbb2", "X-Username": "4444"}
+2024-04-21 22:03:13.500	info	user/myday.go:12	Myday function called	{"X-Request-ID": "41643337-1417-40f1-8ee7-19a5a6b1bb26", "X-Username": "4444"}
+2024-04-21 22:03:13.502	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:03:13.502	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:03:13.502	info	store/user.go:218	pagesize:
+2024-04-21 22:03:13.503	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:03:13.503	info	store/user.go:235	items
+2024-04-21 22:03:14.588	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "136e62f0-aaa3-4fe1-a1af-da44211c19d0", "X-Username": "4444"}
+2024-04-21 22:03:15.030	info	user/items.go:12	Items function called	{"X-Request-ID": "fc86758a-feb3-4bd9-ae56-13ee6b6d3927", "X-Username": "4444"}
+2024-04-21 22:03:15.030	info	store/user.go:244	page msgs:	{"pagesize:": 10, "next_id:": 0}
+2024-04-21 22:03:16.970	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "851bdef7-4490-4485-8b10-c6e606b9a086", "X-Username": "4444"}
+2024-04-21 22:03:18.403	info	user/mydayai.go:12	MydayAi function called	{"X-Request-ID": "cbe0cffb-fb49-4b92-a363-e416fde0967f", "X-Username": "4444"}
+2024-04-21 22:03:18.404	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:03:18.404	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:03:18.404	info	store/user.go:218	pagesize:
+2024-04-21 22:03:18.406	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:03:18.406	info	store/user.go:235	items
+2024-04-21 22:04:12.035	info	user/myday.go:12	Myday function called	{"X-Request-ID": "b241c4ee-f5b7-4e12-b0f4-04232c0eb395", "X-Username": "4444"}
+2024-04-21 22:04:12.037	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:04:12.037	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:04:12.037	info	store/user.go:218	pagesize:
+2024-04-21 22:04:12.037	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:04:12.037	info	store/user.go:235	items
+2024-04-21 22:04:14.159	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "a2d58535-5171-4e8a-82c8-72f4d1474902", "X-Username": "4444"}
+2024-04-21 22:04:20.055	info	user/myday.go:12	Myday function called	{"X-Request-ID": "9b8fc35c-bd30-4abb-a39a-45842c74090a", "X-Username": "4444"}
+2024-04-21 22:04:20.056	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:04:20.056	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:04:20.056	info	store/user.go:218	pagesize:
+2024-04-21 22:04:20.057	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:04:20.057	info	store/user.go:235	items
+2024-04-21 22:04:27.959	info	item/create.go:12	Item create function called	{"X-Request-ID": "8d75b610-864e-4a8c-acda-bd29de5f23c1", "X-Username": "4444"}
+2024-04-21 22:04:27.982	info	user/myday.go:12	Myday function called	{"X-Request-ID": "acb1fcad-d22c-430d-b050-88854a2890a2", "X-Username": "4444"}
+2024-04-21 22:04:27.984	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:04:27.984	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:04:27.984	info	store/user.go:218	pagesize:
+2024-04-21 22:04:27.984	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:04:27.984	info	store/user.go:235	items
+2024-04-21 22:04:29.536	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "3db72930-2335-48dd-9322-6e69f888a454", "X-Username": "4444"}
+2024-04-21 22:04:32.042	info	item/update.go:12	Item Update function called	{"X-Request-ID": "cc5f51fc-d709-4326-82f2-2d7bcf0263ca", "X-Username": "4444"}
+2024-04-21 22:04:32.044	error	log/log.go:120	Ignored key without a value.	{"ignored": 1}
+2024-04-21 22:04:32.044	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 1, "value": "preitem.myday"}]}
+2024-04-21 22:04:32.044	info	store/items.go:312	it.myday & 
+2024-04-21 22:04:33.493	info	user/myday.go:12	Myday function called	{"X-Request-ID": "37966147-7ee5-4101-887f-fec3a763e118", "X-Username": "4444"}
+2024-04-21 22:04:33.494	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 22:04:33.494	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 22:04:33.494	info	store/user.go:218	pagesize:
+2024-04-21 22:04:33.496	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 22:04:33.496	info	store/user.go:235	items
+2024-04-21 23:45:38.356	info	item/create.go:12	Item create function called	{"X-Request-ID": "d412e781-50f3-467e-8606-8c05663e78ab", "X-Username": "4444"}
+2024-04-21 23:45:38.377	info	user/myday.go:12	Myday function called	{"X-Request-ID": "f4b5af37-f30f-43d2-b9c7-b0389e954bf1", "X-Username": "4444"}
+2024-04-21 23:45:38.378	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-21 23:45:38.378	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-21 23:45:38.378	info	store/user.go:218	pagesize:
+2024-04-21 23:45:38.378	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-21 23:45:38.378	info	store/user.go:235	items
+2024-04-21 23:45:50.647	info	store/store.go:63	get userid from username failed
+2024-04-21 23:45:50.649	info	store/store.go:63	get userid from username failed
+2024-04-21 23:45:50.652	info	store/store.go:63	get userid from username failed
+2024-04-21 23:45:50.654	info	store/store.go:63	get userid from username failed
+2024-04-21 23:45:50.677	info	store/store.go:63	get userid from username failed
+2024-04-21 23:45:50.691	info	store/store.go:63	get userid from username failed
+2024-04-21 23:49:47.606	info	mytodolist/mytodolist.go:84	Shutting down server...
+2024-04-21 23:49:47.606	info	mytodolist/mytodolist.go:87	Waiting for all goroutines to finish;	{"the gotroutine number is:": 47}
+2024-04-21 23:49:47.607	info	mytodolist/mytodolist.go:96	Server exited
+2024-04-22 08:35:55.778	info	mytodolist/mytodolist.go:105	start to listening the incoming requests on http address	{"addr": ":8088"}
+2024-04-22 08:36:36.448	info	user/myday.go:12	Myday function called	{"X-Request-ID": "fb17cb8d-59a8-401d-8ab2-dd518760527d", "X-Username": "4444"}
+2024-04-22 08:36:36.457	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:36:36.458	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:36:36.457	info	store/user.go:218	pagesize:
+2024-04-22 08:36:36.468	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:36:36.468	info	store/user.go:235	items
+2024-04-22 08:41:01.994	info	user/myday.go:12	Myday function called	{"X-Request-ID": "811d0135-f235-4ba2-8a48-1227b8bd01fb", "X-Username": "4444"}
+2024-04-22 08:41:01.996	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:41:01.997	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:41:01.996	info	store/user.go:218	pagesize:
+2024-04-22 08:41:01.998	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:41:01.998	info	store/user.go:235	items
+2024-04-22 08:41:02.013	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "611a4418-6784-445c-8b0a-5cbc0f5a9650", "X-Username": "4444"}
+2024-04-22 08:46:24.352	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "9cf10411-7a58-469c-88a6-e1eb634f7eb4", "X-Username": "4444"}
+2024-04-22 08:46:24.353	info	user/myday.go:12	Myday function called	{"X-Request-ID": "91232c6a-8407-42b8-8358-61ae858b8a80", "X-Username": "4444"}
+2024-04-22 08:46:24.359	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:24.359	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:24.359	info	store/user.go:218	pagesize:
+2024-04-22 08:46:24.368	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:24.368	info	store/user.go:235	items
+2024-04-22 08:46:30.041	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "912d95b9-4e7d-4b18-bceb-9826765db02d", "X-Username": "4444"}
+2024-04-22 08:46:38.760	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "fba0db36-81cc-484e-902b-bd0c939011bd", "X-Username": "4444"}
+2024-04-22 08:46:38.763	info	user/myday.go:12	Myday function called	{"X-Request-ID": "02aebe4c-6c67-4cce-9e54-56e32cc0a561", "X-Username": "4444"}
+2024-04-22 08:46:38.767	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:38.767	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:38.767	info	store/user.go:218	pagesize:
+2024-04-22 08:46:38.771	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:38.771	info	store/user.go:235	items
+2024-04-22 08:46:44.634	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "694d2cd0-65af-4695-944f-c7f2f62ca076", "X-Username": "4444"}
+2024-04-22 08:46:44.640	info	project/create.go:13	project create function called	{"X-Request-ID": "0d6ed2a3-a221-4edd-9a2e-4283069cef2a", "X-Username": "4444"}
+2024-04-22 08:46:44.651	info	user/myday.go:12	Myday function called	{"X-Request-ID": "3c49f929-024c-457c-96ff-77614d352ea6", "X-Username": "4444"}
+2024-04-22 08:46:44.658	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:44.658	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:44.658	info	store/user.go:218	pagesize:
+2024-04-22 08:46:44.664	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:44.664	info	store/user.go:235	items
+2024-04-22 08:46:44.684	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "5846c252-b0cf-4218-bd33-18dfeaa94bc1", "X-Username": "4444"}
+2024-04-22 08:46:44.684	info	user/myday.go:12	Myday function called	{"X-Request-ID": "a11471f8-c9b5-4235-8fa4-bbd267b1e734", "X-Username": "4444"}
+2024-04-22 08:46:44.691	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:44.691	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:44.691	info	store/user.go:218	pagesize:
+2024-04-22 08:46:44.696	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:44.696	info	store/user.go:235	items
+2024-04-22 08:46:44.963	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "0d07b4cd-f83a-42b7-873b-3413eea7b034", "X-Username": "4444"}
+2024-04-22 08:46:44.963	info	user/myday.go:12	Myday function called	{"X-Request-ID": "4270b222-0dbc-490d-a4bf-a92982e27468", "X-Username": "4444"}
+2024-04-22 08:46:44.965	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:44.965	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:44.965	info	store/user.go:218	pagesize:
+2024-04-22 08:46:44.966	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:44.966	info	store/user.go:235	items
+2024-04-22 08:46:50.423	info	project/create.go:13	project create function called	{"X-Request-ID": "16d89a16-57b6-4c9f-9ded-1f9ddd287f5a", "X-Username": "4444"}
+2024-04-22 08:46:50.430	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "0ed4b9c9-1950-4a6e-8eb9-9cd704105bda", "X-Username": "4444"}
+2024-04-22 08:46:50.430	info	user/myday.go:12	Myday function called	{"X-Request-ID": "d83f2117-feef-4a8b-9954-a464d3722f21", "X-Username": "4444"}
+2024-04-22 08:46:50.440	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:50.440	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:50.439	info	store/user.go:218	pagesize:
+2024-04-22 08:46:50.445	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:50.445	info	store/user.go:235	items
+2024-04-22 08:46:50.448	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "3670ae78-840b-475e-aa77-5c96a203a270", "X-Username": "4444"}
+2024-04-22 08:46:50.450	info	user/myday.go:12	Myday function called	{"X-Request-ID": "1c79d4e7-5286-405c-877f-e256c3fbef2d", "X-Username": "4444"}
+2024-04-22 08:46:50.454	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:50.454	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:50.454	info	store/user.go:218	pagesize:
+2024-04-22 08:46:50.473	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:50.473	info	store/user.go:235	items
+2024-04-22 08:46:50.751	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "3cd95706-a61b-4bf0-a86b-5b929b9baf9e", "X-Username": "4444"}
+2024-04-22 08:46:50.753	info	user/myday.go:12	Myday function called	{"X-Request-ID": "539a9d5a-e2c6-455a-b750-4e2b62af17b0", "X-Username": "4444"}
+2024-04-22 08:46:50.760	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:50.761	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:50.760	info	store/user.go:218	pagesize:
+2024-04-22 08:46:50.766	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:50.766	info	store/user.go:235	items
+2024-04-22 08:46:56.021	info	project/create.go:13	project create function called	{"X-Request-ID": "c787f600-e108-43bc-bfc8-7a5c5f8e6ff5", "X-Username": "4444"}
+2024-04-22 08:46:56.023	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "5ebd7807-a2be-4f7c-9297-e498eb8b5758", "X-Username": "4444"}
+2024-04-22 08:46:56.037	info	user/myday.go:12	Myday function called	{"X-Request-ID": "821ecac3-29d7-4594-a0b3-ed1ab19c2b3e", "X-Username": "4444"}
+2024-04-22 08:46:56.041	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:56.041	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:56.041	info	store/user.go:218	pagesize:
+2024-04-22 08:46:56.046	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:56.046	info	store/user.go:235	items
+2024-04-22 08:46:56.047	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "ff9b50cf-9024-4e5d-8c6a-a2afeced5f15", "X-Username": "4444"}
+2024-04-22 08:46:56.050	info	user/myday.go:12	Myday function called	{"X-Request-ID": "07e185c0-a3f4-4b9b-b92d-ce25648d46b8", "X-Username": "4444"}
+2024-04-22 08:46:56.055	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:56.055	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:56.055	info	store/user.go:218	pagesize:
+2024-04-22 08:46:56.056	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:56.056	info	store/user.go:235	items
+2024-04-22 08:46:56.346	info	user/myday.go:12	Myday function called	{"X-Request-ID": "8e9becfa-defa-4641-8d30-1ee365174752", "X-Username": "4444"}
+2024-04-22 08:46:56.346	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "fd7c5b0c-ca9d-4276-9644-ea436e515364", "X-Username": "4444"}
+2024-04-22 08:46:56.347	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:46:56.348	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:46:56.347	info	store/user.go:218	pagesize:
+2024-04-22 08:46:56.350	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:46:56.350	info	store/user.go:235	items
+2024-04-22 08:46:57.056	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "272a5e24-efb5-499a-a9f5-37e5b69855d5", "X-Username": "4444"}
+2024-04-22 08:47:16.111	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "b1a1c00e-4457-4f2c-8ba5-4aa6190a8edd", "X-Username": "4444"}
+2024-04-22 08:47:28.303	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "74b18d71-0a16-47e7-b8f6-0dfb115daa06", "X-Username": "4444"}
+2024-04-22 08:47:33.873	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "f3066895-2df1-4f24-9df8-ce3444f21d60", "X-Username": "4444"}
+2024-04-22 08:47:52.108	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "1daf3cfc-29d8-4655-a11f-ec32a9cff6b5", "X-Username": "4444"}
+2024-04-22 08:48:14.118	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "db66493d-30fd-43f0-ae39-2921a394fccd", "X-Username": "4444"}
+2024-04-22 08:48:20.620	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "fefdf8ec-9fbb-44aa-bbc2-ca5c39c204b6", "X-Username": "4444"}
+2024-04-22 08:48:25.067	info	user/myday.go:12	Myday function called	{"X-Request-ID": "822e25f3-be4a-4a31-a3cb-092b0e05b7c4", "X-Username": "4444"}
+2024-04-22 08:48:25.072	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:48:25.072	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:48:25.072	info	store/user.go:218	pagesize:
+2024-04-22 08:48:25.076	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:48:25.076	info	store/user.go:235	items
+2024-04-22 08:48:26.021	info	user/important.go:12	Important function called	{"X-Request-ID": "d3089eff-22a5-47ca-9f4c-2e7749e5228c", "X-Username": "4444"}
+2024-04-22 08:48:26.441	info	user/items.go:12	Items function called	{"X-Request-ID": "ae9aa9b2-93b4-4a08-866e-ed8de61e4331", "X-Username": "4444"}
+2024-04-22 08:48:26.443	info	store/user.go:244	page msgs:	{"pagesize:": 10, "next_id:": 0}
+2024-04-22 08:48:26.831	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "0849d63c-0fb6-4bc5-bff5-4a529e35794e", "X-Username": "4444"}
+2024-04-22 08:48:26.860	info	collection/loaditems.go:12	collection's loaditems function called	{"X-Request-ID": "9965156c-b718-4f8b-b6d8-aaa8974846d5", "X-Username": "4444"}
+2024-04-22 08:48:26.860	debug	collection/loaditems.go:14	the username is:	{"username:": "4444"}
+2024-04-22 08:48:27.307	info	user/getcollections.go:10	Get Collections function called	{"X-Request-ID": "fea66545-849f-4f80-b4a9-18e270cbbf39", "X-Username": "4444"}
+2024-04-22 08:48:27.807	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "147d2293-4b03-42c6-8912-8bbdec56dcb2", "X-Username": "4444"}
+2024-04-22 08:48:27.815	info	user/myday.go:12	Myday function called	{"X-Request-ID": "947cb1fe-a076-4302-83ad-fa19b74fcb3b", "X-Username": "4444"}
+2024-04-22 08:48:27.824	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:48:27.824	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:48:27.824	info	store/user.go:218	pagesize:
+2024-04-22 08:48:27.830	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:48:27.830	info	store/user.go:235	items
+2024-04-22 08:48:29.049	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "b113cd0e-e070-4522-87d0-4ccb601d90bd", "X-Username": "4444"}
+2024-04-22 08:48:39.715	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "4c666654-dfd4-456f-ae84-07925b80c1f1", "X-Username": "4444"}
+2024-04-22 08:48:39.715	info	user/myday.go:12	Myday function called	{"X-Request-ID": "b16b1b7c-5e49-48f4-b888-ff394ba18541", "X-Username": "4444"}
+2024-04-22 08:48:39.717	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:48:39.717	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:48:39.717	info	store/user.go:218	pagesize:
+2024-04-22 08:48:39.719	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:48:39.719	info	store/user.go:235	items
+2024-04-22 08:48:57.862	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "5b863bb6-f381-4cdc-8898-e3a71a0c0df1", "X-Username": "4444"}
+2024-04-22 08:48:57.864	info	user/myday.go:12	Myday function called	{"X-Request-ID": "d6f4d3da-fe0b-438b-9c2f-89c7d9f77481", "X-Username": "4444"}
+2024-04-22 08:48:57.867	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:48:57.867	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:48:57.867	info	store/user.go:218	pagesize:
+2024-04-22 08:48:57.869	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:48:57.869	info	store/user.go:235	items
+2024-04-22 08:49:08.082	info	user/myday.go:12	Myday function called	{"X-Request-ID": "22192964-c8a5-46c5-8025-de805f82601a", "X-Username": "4444"}
+2024-04-22 08:49:08.082	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "62b3e882-8117-468e-adf9-e00920345422", "X-Username": "4444"}
+2024-04-22 08:49:08.083	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:49:08.083	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:49:08.083	info	store/user.go:218	pagesize:
+2024-04-22 08:49:08.083	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:49:08.083	info	store/user.go:235	items
+2024-04-22 08:49:29.675	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "9b2599e6-2ee5-4e4d-8cf0-cb9b67b540a5", "X-Username": "4444"}
+2024-04-22 08:49:29.675	info	user/myday.go:12	Myday function called	{"X-Request-ID": "6246c9b6-5131-4780-82c5-19b671886fe1", "X-Username": "4444"}
+2024-04-22 08:49:29.676	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:49:29.676	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:49:29.676	info	store/user.go:218	pagesize:
+2024-04-22 08:49:29.676	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:49:29.676	info	store/user.go:235	items
+2024-04-22 08:49:50.835	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "d066cc84-cf90-4466-bd92-c902a916ad2d", "X-Username": "4444"}
+2024-04-22 08:49:50.836	info	user/myday.go:12	Myday function called	{"X-Request-ID": "2d31cd37-e01c-4e1f-b05b-4c7527ffa1c0", "X-Username": "4444"}
+2024-04-22 08:49:50.841	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:49:50.841	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:49:50.841	info	store/user.go:218	pagesize:
+2024-04-22 08:49:50.846	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:49:50.846	info	store/user.go:235	items
+2024-04-22 08:49:51.717	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "8758af7b-9a4d-46b2-9e71-9b0ecf05858b", "X-Username": "4444"}
+2024-04-22 08:49:51.717	info	user/myday.go:12	Myday function called	{"X-Request-ID": "945b76f3-d21c-44a2-91f0-ef0e0ce7298b", "X-Username": "4444"}
+2024-04-22 08:49:51.721	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:49:51.722	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:49:51.721	info	store/user.go:218	pagesize:
+2024-04-22 08:49:51.726	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:49:51.726	info	store/user.go:235	items
+2024-04-22 08:50:00.714	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "1fffaeac-b723-4877-9c40-8a4d37956a88", "X-Username": "4444"}
+2024-04-22 08:50:00.714	info	user/myday.go:12	Myday function called	{"X-Request-ID": "c00b9d9a-374e-4b8a-969e-01bb33c7d749", "X-Username": "4444"}
+2024-04-22 08:50:00.718	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:50:00.718	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:50:00.718	info	store/user.go:218	pagesize:
+2024-04-22 08:50:00.724	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:50:00.724	info	store/user.go:235	items
+2024-04-22 08:50:13.425	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "5509d765-6e38-4471-b1fa-01a935338da5", "X-Username": "4444"}
+2024-04-22 08:50:13.425	info	user/myday.go:12	Myday function called	{"X-Request-ID": "e0587f45-cfd7-4414-b4c9-dafa2b78eea8", "X-Username": "4444"}
+2024-04-22 08:50:13.426	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:50:13.426	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:50:13.426	info	store/user.go:218	pagesize:
+2024-04-22 08:50:13.426	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:50:13.426	info	store/user.go:235	items
+2024-04-22 08:50:25.848	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "b03ffb04-34d7-4cc5-a92f-7eae639770ba", "X-Username": "4444"}
+2024-04-22 08:50:25.849	info	user/myday.go:12	Myday function called	{"X-Request-ID": "eaabb65c-487a-4de2-b97b-246a9fe93445", "X-Username": "4444"}
+2024-04-22 08:50:25.851	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:50:25.851	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:50:25.850	info	store/user.go:218	pagesize:
+2024-04-22 08:50:25.852	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:50:25.852	info	store/user.go:235	items
+2024-04-22 08:50:30.960	info	project/create.go:13	project create function called	{"X-Request-ID": "f8892bc3-a464-4132-b9f0-e40553e30517", "X-Username": "4444"}
+2024-04-22 08:50:30.961	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "d46a3c20-8815-4886-b691-20ab8ecbe431", "X-Username": "4444"}
+2024-04-22 08:50:30.967	info	user/myday.go:12	Myday function called	{"X-Request-ID": "2db774a6-4b35-4e39-a810-c6d841b5e9f1", "X-Username": "4444"}
+2024-04-22 08:50:30.976	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:50:30.977	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:50:30.976	info	store/user.go:218	pagesize:
+2024-04-22 08:50:30.983	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:50:30.983	info	store/user.go:235	items
+2024-04-22 08:50:30.992	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "8ab48ea9-18bc-460d-9b62-65b1bf26a1ae", "X-Username": "4444"}
+2024-04-22 08:50:30.992	info	user/myday.go:12	Myday function called	{"X-Request-ID": "5cb20367-36d4-473d-9603-5835014423c0", "X-Username": "4444"}
+2024-04-22 08:50:30.993	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:50:30.994	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:50:30.993	info	store/user.go:218	pagesize:
+2024-04-22 08:50:30.996	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:50:30.995	info	store/user.go:235	items
+2024-04-22 08:50:31.287	info	user/myday.go:12	Myday function called	{"X-Request-ID": "9e4941cd-1728-4f16-9dc2-75662939e574", "X-Username": "4444"}
+2024-04-22 08:50:31.288	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "772c8ab5-2390-4dee-8846-73cd03271692", "X-Username": "4444"}
+2024-04-22 08:50:31.288	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:50:31.288	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:50:31.288	info	store/user.go:218	pagesize:
+2024-04-22 08:50:31.289	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:50:31.289	info	store/user.go:235	items
+2024-04-22 08:52:03.908	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "c6e3279d-5095-4bac-9ed0-13346c0e0ba4", "X-Username": "4444"}
+2024-04-22 08:52:03.910	info	user/myday.go:12	Myday function called	{"X-Request-ID": "ad9842ea-4f3d-4f62-8627-741faca80da7", "X-Username": "4444"}
+2024-04-22 08:52:03.911	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:03.911	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:03.911	info	store/user.go:218	pagesize:
+2024-04-22 08:52:03.912	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:03.912	info	store/user.go:235	items
+2024-04-22 08:52:11.270	info	project/create.go:13	project create function called	{"X-Request-ID": "b1e0c708-4aef-4bf0-9d2d-57e5e9635bcf", "X-Username": "4444"}
+2024-04-22 08:52:11.274	info	user/myday.go:12	Myday function called	{"X-Request-ID": "33b2f83c-9840-43e7-a327-7cc5033232e9", "X-Username": "4444"}
+2024-04-22 08:52:11.276	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "30d529b4-23d1-4498-b521-8e1d1e2226a9", "X-Username": "4444"}
+2024-04-22 08:52:11.277	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:11.278	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:11.277	info	store/user.go:218	pagesize:
+2024-04-22 08:52:11.279	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:11.279	info	store/user.go:235	items
+2024-04-22 08:52:11.317	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "59da8ad1-3a97-4e1b-8f9a-c22cd1123796", "X-Username": "4444"}
+2024-04-22 08:52:11.317	info	user/myday.go:12	Myday function called	{"X-Request-ID": "5d595efc-dc72-41a7-b1a9-daf2d7a17b20", "X-Username": "4444"}
+2024-04-22 08:52:11.319	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:11.319	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:11.319	info	store/user.go:218	pagesize:
+2024-04-22 08:52:11.320	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:11.320	info	store/user.go:235	items
+2024-04-22 08:52:11.601	info	user/myday.go:12	Myday function called	{"X-Request-ID": "f10cf922-6dfe-49df-a678-f8faa49cd87a", "X-Username": "4444"}
+2024-04-22 08:52:11.601	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "0bf229a4-c7d2-4d86-841a-e2751f2e9cfc", "X-Username": "4444"}
+2024-04-22 08:52:11.602	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:11.602	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:11.602	info	store/user.go:218	pagesize:
+2024-04-22 08:52:11.602	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:11.602	info	store/user.go:235	items
+2024-04-22 08:52:16.872	info	project/create.go:13	project create function called	{"X-Request-ID": "ab457f85-b10c-4e78-917d-3f9c31f6f80f", "X-Username": "4444"}
+2024-04-22 08:52:16.872	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "5b3e2a26-dcb9-4c57-bfc9-94b5822f40d8", "X-Username": "4444"}
+2024-04-22 08:52:16.875	info	user/myday.go:12	Myday function called	{"X-Request-ID": "99d706bc-5d33-4628-ab64-d11b0a66e7a9", "X-Username": "4444"}
+2024-04-22 08:52:16.879	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:16.879	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:16.879	info	store/user.go:218	pagesize:
+2024-04-22 08:52:16.884	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:16.884	info	store/user.go:235	items
+2024-04-22 08:52:16.909	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "7bae8c74-5305-4439-87f3-7e0ff7c35194", "X-Username": "4444"}
+2024-04-22 08:52:16.909	info	user/myday.go:12	Myday function called	{"X-Request-ID": "304ba042-f9b6-44b6-a1b6-22f5e125720e", "X-Username": "4444"}
+2024-04-22 08:52:16.910	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:16.910	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:16.910	info	store/user.go:218	pagesize:
+2024-04-22 08:52:16.911	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:16.911	info	store/user.go:235	items
+2024-04-22 08:52:17.209	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "790e8a4e-96d2-41d2-89bf-76d15627cbd9", "X-Username": "4444"}
+2024-04-22 08:52:17.235	info	user/myday.go:12	Myday function called	{"X-Request-ID": "a61df1ff-68d6-4693-8dae-a906c8cb1253", "X-Username": "4444"}
+2024-04-22 08:52:17.241	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:17.242	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:17.241	info	store/user.go:218	pagesize:
+2024-04-22 08:52:17.243	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:17.243	info	store/user.go:235	items
+2024-04-22 08:52:56.240	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "72d7ea18-9b67-4a37-9f5c-a4b7d4c11154", "X-Username": "4444"}
+2024-04-22 08:52:56.276	info	user/myday.go:12	Myday function called	{"X-Request-ID": "dd87cb79-0a5c-4805-a284-5b4d934434c3", "X-Username": "4444"}
+2024-04-22 08:52:56.278	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:56.278	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:56.278	info	store/user.go:218	pagesize:
+2024-04-22 08:52:56.280	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:56.280	info	store/user.go:235	items
+2024-04-22 08:52:59.855	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "a900db94-eebf-40cb-bc79-df688179b8d8", "X-Username": "4444"}
+2024-04-22 08:52:59.856	info	user/myday.go:12	Myday function called	{"X-Request-ID": "a0e4ea82-a636-443e-9c49-37d9e7040bb5", "X-Username": "4444"}
+2024-04-22 08:52:59.858	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:52:59.859	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:52:59.858	info	store/user.go:218	pagesize:
+2024-04-22 08:52:59.859	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:52:59.859	info	store/user.go:235	items
+2024-04-22 08:53:07.048	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "48266a8c-6ea0-403c-a02d-1845534c2f20", "X-Username": "4444"}
+2024-04-22 08:53:07.049	info	user/myday.go:12	Myday function called	{"X-Request-ID": "8df9fb53-084f-4f92-82bf-0e87ae33bbb8", "X-Username": "4444"}
+2024-04-22 08:53:07.050	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:07.051	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:07.050	info	store/user.go:218	pagesize:
+2024-04-22 08:53:07.052	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:07.052	info	store/user.go:235	items
+2024-04-22 08:53:12.200	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "1f410b46-c8d4-4087-ad15-c3157d549698", "X-Username": "4444"}
+2024-04-22 08:53:12.201	info	user/myday.go:12	Myday function called	{"X-Request-ID": "13ac02c0-b5d8-4073-b7c2-ae69e7ce1c53", "X-Username": "4444"}
+2024-04-22 08:53:12.206	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:12.206	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:12.206	info	store/user.go:218	pagesize:
+2024-04-22 08:53:12.212	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:12.212	info	store/user.go:235	items
+2024-04-22 08:53:13.984	info	project/delete.go:12	project delete function called	{"X-Request-ID": "7641b73d-5946-4b18-8621-66d80c998060", "X-Username": "4444"}
+2024-04-22 08:53:23.141	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "3fe78091-0fb3-45da-917d-166a3aeac571", "X-Username": "4444"}
+2024-04-22 08:53:23.141	info	user/myday.go:12	Myday function called	{"X-Request-ID": "c73ad723-83c2-4650-8ae2-c4324e7cf35e", "X-Username": "4444"}
+2024-04-22 08:53:23.142	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:23.142	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:23.142	info	store/user.go:218	pagesize:
+2024-04-22 08:53:23.142	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:23.142	info	store/user.go:235	items
+2024-04-22 08:53:28.707	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "117ad409-5022-4e35-8d99-93801b5a718d", "X-Username": "4444"}
+2024-04-22 08:53:28.709	info	user/myday.go:12	Myday function called	{"X-Request-ID": "748df303-8e5e-4448-87b3-12e32ab23311", "X-Username": "4444"}
+2024-04-22 08:53:28.710	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:28.710	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:28.710	info	store/user.go:218	pagesize:
+2024-04-22 08:53:28.712	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:28.712	info	store/user.go:235	items
+2024-04-22 08:53:30.245	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "c049c239-aad4-4b51-b92e-0cc7ce569124", "X-Username": "4444"}
+2024-04-22 08:53:30.245	info	user/myday.go:12	Myday function called	{"X-Request-ID": "d81d8d38-1ab1-4880-9e77-180b1e9bc164", "X-Username": "4444"}
+2024-04-22 08:53:30.246	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:30.246	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:30.246	info	store/user.go:218	pagesize:
+2024-04-22 08:53:30.248	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:30.248	info	store/user.go:235	items
+2024-04-22 08:53:33.280	info	user/myday.go:12	Myday function called	{"X-Request-ID": "90669e8e-3881-4d05-9518-1a6df5c95d99", "X-Username": "4444"}
+2024-04-22 08:53:33.280	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "4a6aa586-f9b0-484b-8085-772b477361d9", "X-Username": "4444"}
+2024-04-22 08:53:33.281	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:33.281	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:33.281	info	store/user.go:218	pagesize:
+2024-04-22 08:53:33.281	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:33.281	info	store/user.go:235	items
+2024-04-22 08:53:45.967	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "b757a368-916b-4474-b510-ba2dab97e67a", "X-Username": "4444"}
+2024-04-22 08:53:45.970	info	user/myday.go:12	Myday function called	{"X-Request-ID": "b770371e-be78-41d9-90c2-831481fdf4df", "X-Username": "4444"}
+2024-04-22 08:53:45.974	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:45.974	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:45.974	info	store/user.go:218	pagesize:
+2024-04-22 08:53:45.975	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:45.975	info	store/user.go:235	items
+2024-04-22 08:53:52.583	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "bf9a2866-e2f9-4055-ba7a-6432c870e044", "X-Username": "4444"}
+2024-04-22 08:53:52.584	info	user/myday.go:12	Myday function called	{"X-Request-ID": "7176606b-35a0-43f9-99e7-57a5af93d4e6", "X-Username": "4444"}
+2024-04-22 08:53:52.586	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:52.586	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:52.586	info	store/user.go:218	pagesize:
+2024-04-22 08:53:52.587	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:52.587	info	store/user.go:235	items
+2024-04-22 08:53:53.591	info	user/myday.go:12	Myday function called	{"X-Request-ID": "ced80163-48c8-48b6-a801-d753a7ef2eca", "X-Username": "4444"}
+2024-04-22 08:53:53.591	info	project/myproject.go:12	project list myproject function called	{"X-Request-ID": "5df94627-ea90-4a6d-909a-5de18eee735e", "X-Username": "4444"}
+2024-04-22 08:53:53.591	error	log/log.go:120	Ignored key without a value.	{"ignored": 0}
+2024-04-22 08:53:53.591	error	log/log.go:120	Ignored key-value pairs with non-string keys.	{"invalid": [{"position": 0, "key": 50, "value": "next_id:"}]}
+2024-04-22 08:53:53.591	info	store/user.go:218	pagesize:
+2024-04-22 08:53:53.592	error	log/log.go:120	Ignored key without a value.	{"ignored": [{"id":25,"item_name":"1212","description":"1212","project_id":17,"deadline":"2024-04-21T21:58:36+08:00","important":0,"done":1,"myDay":1,"created_time":"2024-04-21T21:58:36+08:00","node":1,"checkPoint":0,"collection_id":0},{"id":28,"item_name":"121212","description":"21212","project_id":0,"deadline":"2024-04-21T22:04:27+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T22:04:28+08:00","node":0,"checkPoint":0,"collection_id":0},{"id":29,"item_name":"2122122","description":"","project_id":0,"deadline":"2024-04-21T23:45:38+08:00","important":0,"done":0,"myDay":1,"created_time":"2024-04-21T23:45:38+08:00","node":0,"checkPoint":0,"collection_id":0}]}
+2024-04-22 08:53:53.592	info	store/user.go:235	items
+2024-04-22 08:53:55.660	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "67463fd8-f0fa-493e-89e6-50d2ce1eb5f0", "X-Username": "4444"}
+2024-04-22 08:54:45.958	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "1e0c2406-0534-4b9e-9f29-eafb31d58c33", "X-Username": "4444"}
+2024-04-22 08:54:48.318	info	project/queryallproject.go:12	query all project function called	{"X-Request-ID": "4997bdf8-a9df-4f4c-9574-f1723897202d", "X-Username": "4444"}
+2024-04-22 08:54:54.855	info	mytodolist/mytodolist.go:84	Shutting down server...
+2024-04-22 08:54:54.856	info	mytodolist/mytodolist.go:87	Waiting for all goroutines to finish;	{"the gotroutine number is:": 12}
+2024-04-22 08:54:54.858	info	mytodolist/mytodolist.go:96	Server exited
